@@ -3,19 +3,18 @@
 html {
     font-family: "open sans";
     color:#333;
-
-    
+    font-size: 15px;   
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     color: #8e8e8e;
-
 }
 
 h2 {
     font-size: 33px;
+    opacity: 0.8;
 }
 
 a {
@@ -35,7 +34,11 @@ a:hover {
 
 }
 
-column2 {
+.column1 {
+    padding-right: 60px;
+}
+
+.column2 {
     padding-left: 30px;
 }
 
@@ -52,3 +55,26 @@ column2 {
     "item2 item5 item8"
     "item3 item6 item9";
 }
+
+@media only screen and (max-width: 970px) {
+    body {
+    }
+    .cointainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .column1 {
+        margin-top: 400px;
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .column3 {
+        width: 100%;
+    }
+
+
+  }
