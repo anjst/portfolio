@@ -4,7 +4,7 @@ function replaceword(that, word, oword) {
         const ul = document.getElementById('list');
         const li = document.createElement('li');
         const x = document.createElement("IMG");
-        x.setAttribute("src", "./lol.gif");
+        x.setAttribute("src", "./style/img/lol.gif");
         x.setAttribute("width", "100");
         x.setAttribute("height", "80");
         x.setAttribute("alt", "The Pulpit Rock");
