@@ -18,15 +18,15 @@ function replaceword(that, word, oword) {
     }
 }
 
-function replace(that, word, oword) {
+function replace(word, oword) {
     const x = document.getElementById("lolo");
     const y = document.getElementById('oops')
-    if (x.style.display === "none") {
+    if (y.textContent == "view all") {
       x.style.display = "block";
-      that.textContent = oword;
+      y.textContent = oword;
     } else {
       x.style.display = "none";
-      that.textContent = word;
+      y.textContent = word;
     }
   }
 
