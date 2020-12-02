@@ -22,6 +22,10 @@ text-decoration: none;
 color:#8e8e8e;
 }
 
+#lolo {
+    display: none;
+}
+
 a:hover {
     color: black;
   }
@@ -57,7 +61,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 970px) {
-    
+
     .cointainer {
         display: flex;
         flex-wrap: wrap;
